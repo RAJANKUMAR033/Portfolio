@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajan Kumar | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1a1a2e;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00adb5;
+    }
+
+    header p {
+      font-style: italic;
+      color: #eeeeee;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      border-bottom: 2px solid #00adb5;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #112d4e;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .resume-link a {
+      color: #00adb5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact p {
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      background: #1a1a2e;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rajan Kumar</h1>
+    <p>Passionate Developer | Lifelong Learner | Tech Enthusiast</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>Hi, I'm Rajan Kumar. I am a web developer with a strong foundation in HTML, CSS, JavaScript, and a passion for creating visually appealing, responsive websites. I love solving problems, learning new technologies, and building projects that make an impact.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <div class="card">HTML5 & CSS3</div>
+      <div class="card">JavaScript</div>
+      <div class="card">React.js</div>
+      <div class="card">Node.js</div>
+      <div class="card">Python</div>
+      <div class="card">Git & GitHub</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A clean and responsive personal portfolio website built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>To-Do App</h3>
+        <p>A full-stack To-Do application using React for frontend and Node.js for backend.</p>
+      </div>
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>A weather forecast app that fetches data using OpenWeather API and displays real-time weather info.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-link">
+    <h2 class="section-title">Resume</h2>
+    <p>Download my resume: <a href="#">Rajan_Kumar_Resume.pdf</a></p>
+  </section>
+
+  <section class="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: rajan.kumar@example.com</p>
+    <p>Phone: +91-9876543210</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rajan Kumar. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
